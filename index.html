@@ -98,7 +98,6 @@
             min-height: 100vh;
         }
 
-        /* PERFECT CIRCLE PROFILE PICTURE */
         .profile-container {
             flex-shrink: 0;
             width: 220px;
@@ -133,6 +132,7 @@
             color: var(--secondary);
             margin-bottom: 0.5rem;
             line-height: 1.2;
+            overflow-wrap: anywhere;
         }
 
         .hero-text h3 {
@@ -303,6 +303,12 @@
             box-shadow: 0 6px 15px rgba(124, 58, 237, 0.25);
         }
 
+        #form-status {
+            margin-top: 1rem;
+            text-align: center;
+            color: var(--primary);
+        }
+
         footer {
             background: linear-gradient(90deg, var(--primary), var(--secondary));
             color: white;
@@ -377,7 +383,6 @@
                 min-height: auto;
             }
 
-            /* CIRCLE SIZE ON MOBILE */
             .profile-container {
                 width: 160px;
                 height: 160px;
@@ -425,7 +430,8 @@
 
         <section id="home" class="hero">
             <div class="profile-container">
-                <img src="rachelle.png"
+                <!-- Image is now linked as profile.jpg -->
+                <img src="profile.jpg"
                      alt="Profile Photo"
                      class="profile-pic">
             </div>
@@ -491,4 +497,4 @@
     </footer>
 
 </body>
-  </html>
+</html>
